@@ -1,0 +1,15 @@
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.deps.json
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Core.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Core.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.AssemblyInfo.cs
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp..20B20D2C.Up2Date
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\refint\ChatApp.Infrastructure.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ref\ChatApp.Infrastructure.dll

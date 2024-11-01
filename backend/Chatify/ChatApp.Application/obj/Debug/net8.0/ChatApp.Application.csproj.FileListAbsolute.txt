@@ -1,0 +1,17 @@
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Application.deps.json
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Application.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Application.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Core.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Infrastructure.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Core.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\bin\Debug\net8.0\ChatApp.Infrastructure.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.csproj.AssemblyReference.cache
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.AssemblyInfoInputs.cache
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.AssemblyInfo.cs
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp..DE1B6355.Up2Date
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\refint\ChatApp.Application.dll
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ChatApp.Application.pdb
+C:\Users\flynn\source\repos\Chatify\ChatApp.Application\obj\Debug\net8.0\ref\ChatApp.Application.dll
