@@ -1,9 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom';
 import React, { useState } from "react";
 import api from '../../config/axios';
-import { jwtDecode } from 'jwt-decode';
 import { message } from 'antd';
-
+import { setJwtToken, setRefreshToken, setUserDetail } from './auth';
 
 function LoginPage() {
   const [username, setUsername] = useState("");
@@ -13,16 +12,19 @@ function LoginPage() {
     e.preventDefault();
 
     const payload = {
-      email: username,
-      password,
+      userName: username,
+      password: password
     };
     try {
       const response = await api.post("/auth/login", payload);
-      const token = response.data.token;
-      localStorage.setItem("token", token);
-      // const user = jwtDecode(token);
-      navigate("/home")
-    } 
+      if (response.status == "200") {
+        setJwtToken(response.data.token);
+        setRefreshToken(response.data.refreshToken);
+        setUserDetail(response.data.refreshToken);
+        message.success("Login Succesfully!");
+        navigate("/home");
+      }
+    }
     catch (error) {
       message.error("Login Failed: " + error.response.data.error);
     }
@@ -41,7 +43,7 @@ function LoginPage() {
           <form className="space-y-6" id="loginForm" onSubmit={handleSubmit}>
             <div>
               <label
-                for="username"
+                htmlFor="username"
                 className="block text-sm font-medium leading-6 text-gray-300"
               >
                 Username
@@ -63,7 +65,7 @@ function LoginPage() {
             <div>
               <div className="flex items-center justify-between">
                 <label
-                  for="password"
+                  htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-300"
                 >
                   Password
