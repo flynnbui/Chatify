@@ -1,56 +1,32 @@
-﻿using ChatApp.Core.Interfaces;
+﻿using ChatApp.Core.Interfaces.Repositories;
+using ChatApp.Core.Interfaces.Services;
 using ChatApp.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using System.Diagnostics;
 
 namespace ChatApp.Core.Services
 {
-    public class UserService : IUserServices
+    public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
-        private readonly ITokenClaimService _tokenClaimsService;
-        public UserService(IUserRepository userRepository, ITokenClaimService tokenClaimsService)
+        private IUserRepository _userRepository;
+        public UserService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
-            _tokenClaimsService = tokenClaimsService;
         }
 
-        public async Task<User> GetUserDetailAsync(string username)
+        public async Task<User> GetUser(Guid id)
         {
-            var result = await _userRepository.GetUserAsync(username);
-            if(result == null)
-            {
-                throw new InvalidOperationException("User not found");
-            }
-            return result;
+            return await _userRepository.GetUserAsync(id).ConfigureAwait(false);
         }
 
-        public async Task<string> LoginUserAsync(string username, string password)
+        public async Task<User> GetUser(string username)
         {
-            var (result, errorMessage) = await _userRepository.LoginAsync(username, password).ConfigureAwait(false);
-            if (!result.Succeeded)
-            {
-                throw new InvalidOperationException(errorMessage);
-            }
-            return await _tokenClaimsService.GenerateJwtToken(username).ConfigureAwait(false);
+            return await _userRepository.GetUserAsync(username).ConfigureAwait(false);
         }
 
-
-
-        public async Task<string> RegisterUserAsync(string username, string password)
+        public async Task<IdentityResult> UpdateUser(User user)
         {
-            var result = await _userRepository.CreateUserAsync(username, password);
-            if (!result.Succeeded)
-            {
-                var errors = string.Join("; ", result.Errors.Select(e => e.Description));
-                throw new InvalidOperationException($"User registration failed: {errors}");
-            }
-
-            return await _tokenClaimsService.GenerateJwtToken(username).ConfigureAwait(false);
+           return await _userRepository.UpdateUserAsync(user).ConfigureAwait(false);
         }
-
     }
 }

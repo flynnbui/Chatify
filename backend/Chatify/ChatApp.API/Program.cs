@@ -1,5 +1,7 @@
-using ChatApp.API.Hubs;
-using ChatApp.Core.Interfaces;
+using ChatApp.Api.Hubs;
+using ChatApp.API.Middleware;
+using ChatApp.Core.Interfaces.Repositories;
+using ChatApp.Core.Interfaces.Services;
 using ChatApp.Core.Models;
 using ChatApp.Core.Services;
 using ChatApp.Infrastructure.Data;
@@ -17,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", builder => builder
-        .WithOrigins("http://localhost:3000")
+        .WithOrigins("http://localhost:5173")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .AllowCredentials());
@@ -71,7 +73,20 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = jwtSettings["Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]))
     };
-}).AddCookie();
+    options.Events = new JwtBearerEvents
+    {
+        OnMessageReceived = context =>
+        {
+            var accessToken = context.Request.Query["access_token"];
+            var path = context.HttpContext.Request.Path;
+            if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/api/chat"))
+            {
+                context.Token = accessToken;
+            }
+            return Task.CompletedTask;
+        }
+    };
+});
 
 //Get the database connection string from appsettings.json
 var connString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -80,9 +95,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connString));
 
 // Register Dependencies
+builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+builder.Services.AddScoped<IMessageService, MessageService>();
 builder.Services.AddScoped<ITokenClaimService, TokenClaimService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserServices, UserService>();
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 
@@ -95,8 +114,9 @@ if (app.Environment.IsDevelopment())
 app.UseCors("CorsPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
-app.MapHub<ChatHub>("/chat");
+app.MapHub<ChatHub>("/api/chat");
 
 
 app.Run();

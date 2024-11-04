@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import api from "../../config/axios";
+import api from "../../config/axios.js";
 import { message } from "antd";
 
 function RegisterPage() {
@@ -117,6 +117,8 @@ function RegisterPage() {
                   name="confirmPassword"
                   type="password"
                   required
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
                   className="block w-full rounded-md border-0 bg-gray-700 text-white placeholder:text-gray-400 shadow-sm ring-1 ring-inset ring-gray-600 py-1.5 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 />
               </div>

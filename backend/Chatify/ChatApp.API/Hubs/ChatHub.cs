@@ -1,34 +1,47 @@
-﻿namespace ChatApp.API.Hubs;
+﻿using ChatApp.Core.Interfaces.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
+using System.Security.Claims;
 
-public class ChatHub : Hub
+
+namespace ChatApp.Api.Hubs
 {
-    // Store a mapping of user IDs to connection IDs
-    private static Dictionary<string, string> UserConnections = new Dictionary<string, string>();
-
-    public override Task OnConnectedAsync()
+    [Authorize]
+    public class ChatHub : Hub
     {
-        return base.OnConnectedAsync();
-    }
+        private readonly IMessageService _messageService;
 
-    public void RegisterUser(string userId)
-    {
-        // Add or update the user's connection ID
-        UserConnections[userId] = Context.ConnectionId;
-    }
-
-    public async Task SendMessageToUser(MessageData messageData)
-    {
-        if (UserConnections.TryGetValue(messageData.recipientId, out string connectionId))
+        public ChatHub(IMessageService messageService)
         {
-            await Clients.Client(connectionId).SendAsync("ReceiveMessage", messageData);
+            _messageService = messageService;
+        }
+
+        // Method to send a message to a specific user
+        public async Task SendMessage(Guid recipientId, string encryptedMessage)
+        {
+            var senderIdString = ClaimTypes.NameIdentifier;
+            if (!Guid.TryParse(senderIdString, out Guid senderId))
+            {
+                throw new HubException("Invalid sender ID.");
+            }
+
+            // Save the encrypted message to the database
+            await _messageService.AddMessageAsync(senderId, recipientId, encryptedMessage);
+
+            // Send the message to the recipient
+            await Clients.User(recipientId.ToString()).SendAsync("ReceiveMessage", senderId, encryptedMessage);
+        }
+
+        public async Task SendMessageGlobal(string encryptedMessage)
+        {
+            var senderIdString = Context.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (!Guid.TryParse(senderIdString, out Guid senderId))
+            {
+                throw new HubException("Invalid sender ID.");
+            }
+            Console.WriteLine("Message Content: " + encryptedMessage);
+            // Send the message to all connected clients
+            await Clients.All.SendAsync("ReceiveMessage", senderId.ToString(), encryptedMessage);
         }
     }
-}
-
-public class MessageData
-{
-    public string senderId { get; set; }
-    public string recipientId { get; set; }
-    public string message { get; set; }
 }

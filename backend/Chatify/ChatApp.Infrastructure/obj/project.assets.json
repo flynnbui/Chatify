@@ -2196,11 +2196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
+      "projectUniqueName": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
       "projectName": "ChatApp.Infrastructure",
-      "projectPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
+      "projectPath": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\flynn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Infrastructure\\obj\\",
+      "outputPath": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2218,8 +2218,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj": {
-              "projectPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj"
+            "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj": {
+              "projectPath": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj"
             }
           }
         }

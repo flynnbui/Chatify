@@ -1,35 +1,31 @@
-import { createBrowserRouter } from "react-router-dom";
-import LoginPage from "../pages/login/loginPage";
-import RegisterPage from "../pages/register/registerPage";
-import HomePage from "../pages/home/homePage";
-import NewChat from "../components/NewChat";
-
-// const ProtectedRouteAuth = ({ children }) => {
-//   if (!user) {
-//     message.error("You need to login first!!");
-//     return <Navigate to="/login" replace />;
-//   }
-//   return children;
-// };
+import { createBrowserRouter, Navigate } from "react-router-dom";
+import LoginPage from "../pages/auth/LoginPage.jsx";
+import RegisterPage from "../pages/auth/RegisterPage.jsx";
+import ChatInterface from "../components/ChatInterface";
+import HomePage from "../pages/home/HomePage.jsx";
 
 export const router = createBrowserRouter([
   {
     path: "/login",
-    element : <LoginPage/>,
+    element: <LoginPage />,
   },
   {
     path: "/register",
-    element : <RegisterPage/>,
+    element: <RegisterPage />,
   },
   {
     path: "/home",
-    element: <HomePage/>,
+    element: <HomePage />,
     children: [
       {
-        path: "/home/newChat",
-        element: <NewChat/>
-      }
-    ]
-  }
+        path: "/home/chat",
+        element: <ChatInterface />,
+      },
+    ],
+  },
+  // redirects to /login for any undefined path
+  {
+    path: "*",
+    element: <Navigate to="/login" replace />,
+  },
 ]);
-

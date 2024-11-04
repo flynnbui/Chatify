@@ -20,12 +20,13 @@ function LoginPage() {
       if (response.status == "200") {
         setJwtToken(response.data.token);
         setRefreshToken(response.data.refreshToken);
-        setUserDetail(response.data.refreshToken);
+        setUserDetail(response.data.token);
         message.success("Login Succesfully!");
         navigate("/home");
       }
     }
     catch (error) {
+      console.log(error);
       message.error("Login Failed: " + error.response.data.error);
     }
   };

@@ -13,3 +13,35 @@ C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\Chat
 C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\refint\ChatApp.Infrastructure.dll
 C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.pdb
 C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ref\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.deps.json
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.pdb
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Core.dll
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Core.pdb
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.csproj.AssemblyReference.cache
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.AssemblyInfoInputs.cache
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.AssemblyInfo.cs
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.csproj.CoreCompileInputs.cache
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.sourcelink.json
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp..20B20D2C.Up2Date
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\refint\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.pdb
+E:\code\comp6841\Chatify\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ref\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.deps.json
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Infrastructure.pdb
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Core.dll
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\bin\Debug\net8.0\ChatApp.Core.pdb
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.csproj.AssemblyReference.cache
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.AssemblyInfoInputs.cache
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.AssemblyInfo.cs
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.csproj.CoreCompileInputs.cache
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.sourcelink.json
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp..20B20D2C.Up2Date
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\refint\ChatApp.Infrastructure.dll
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ChatApp.Infrastructure.pdb
+E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\obj\Debug\net8.0\ref\ChatApp.Infrastructure.dll

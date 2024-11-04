@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatApp.Infrastructure
-build_property.ProjectDir = C:\Users\flynn\source\repos\Chatify\ChatApp.Infrastructure\
+build_property.ProjectDir = E:\code\comp6841\Chatify - Copy\backend\Chatify\ChatApp.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

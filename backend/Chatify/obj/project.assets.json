@@ -521,11 +521,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flynn\\source\\repos\\Chatify\\Chatify.csproj",
+      "projectUniqueName": "E:\\code\\comp6841\\Chatify\\backend\\Chatify\\Chatify.csproj",
       "projectName": "Chatify",
-      "projectPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\Chatify.csproj",
+      "projectPath": "E:\\code\\comp6841\\Chatify\\backend\\Chatify\\Chatify.csproj",
       "packagesPath": "C:\\Users\\flynn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\obj\\",
+      "outputPath": "E:\\code\\comp6841\\Chatify\\backend\\Chatify\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flynn\\AppData\\Roaming\\NuGet\\NuGet.Config",

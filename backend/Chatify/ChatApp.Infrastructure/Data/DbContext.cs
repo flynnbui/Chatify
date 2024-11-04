@@ -11,6 +11,7 @@ namespace ChatApp.Infrastructure.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        // DbSet for other entities
+        // DbSet for Messages
+        public DbSet<Message> Messages { get; set; }
     }
 }

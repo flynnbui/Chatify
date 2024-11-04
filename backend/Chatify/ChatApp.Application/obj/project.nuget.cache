@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YWqLBa8iu/8=",
+  "dgSpecHash": "qXUYl0NFJU0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Application\\ChatApp.Application.csproj",
+  "projectFilePath": "E:\\code\\comp6841\\Chatify\\backend\\Chatify\\ChatApp.Application\\ChatApp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\flynn\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\flynn\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

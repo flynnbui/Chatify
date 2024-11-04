@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj": {}
+    "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj": {
+    "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj",
+        "projectUniqueName": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj",
         "projectName": "ChatApp.Core",
-        "projectPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj",
+        "projectPath": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj",
         "packagesPath": "C:\\Users\\flynn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\obj\\",
+        "outputPath": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\flynn\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "63SwNJ0kFYk=",
+  "dgSpecHash": "CbUfNngqlCA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\flynn\\source\\repos\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj",
+  "projectFilePath": "E:\\code\\comp6841\\Chatify - Copy\\backend\\Chatify\\ChatApp.Core\\ChatApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\flynn\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.10\\microsoft.aspnetcore.cryptography.internal.8.0.10.nupkg.sha512",
     "C:\\Users\\flynn\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.10\\microsoft.aspnetcore.cryptography.keyderivation.8.0.10.nupkg.sha512",
