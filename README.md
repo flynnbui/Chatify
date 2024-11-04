@@ -1,36 +1,39 @@
-Chatify: Secure Chat Application
-Chatify is a secure, end-to-end encrypted (EE2E) chat application focused on protecting user data and privacy. It leverages modern authentication and encryption standards to create a real-time communication platform that prioritizes user privacy and control over their data.
+# **Chatify** - Secure Chat Application
 
-Key Features
-End-to-End Encryption (EE2E): Messages are encrypted with AES, ensuring only the intended recipient can decrypt them.
-Real-Time Messaging: Built with SignalR for fast and reliable real-time communication.
-Minimal Data Retention: No storage of emails or messages on the server, upholding user anonymity and privacy.
-Flexible Authentication: Uses Microsoft Identity for secure, customizable credential management.
-Tech Stack
-Backend: .NET 8 Web API in Clean Architecture
-Database: PostgreSQL
-Real-Time Communication: SignalR
-Containerization: Docker
-Requirements
-Docker and Docker Compose installed on your machine.
-Setup and Run
-Clone the repository:
+Chatify is a secure, end-to-end encrypted (EE2E) chat application that prioritizes user privacy and data protection. Built with modern authentication mechanisms and real-time communication protocols, Chatify addresses common security challenges in token-based authentication and real-time messaging.
+---
 
-bash
-Copy code
-git clone <your-repository-url>
-cd Chatify
-Run the application using Docker Compose:
+## **Features**
 
-bash
-Copy code
-docker-compose up -d --build
-Access the services:
+- **End-to-End Encryption**: Messages are encrypted using AES, ensuring only authorized users can decrypt them.
+- **Real-Time Communication**: Built with SignalR for fast and reliable real-time messaging.
+- **Privacy-Centric Design**: User emails and messages are not stored, ensuring user anonymity and preventing residual data storage.
+- **Flexible Authentication**: Utilizes Microsoft Identity for customizable and secure credential management without vendor lock-in.
 
-Frontend: http://localhost:3000
-Backend API: http://localhost:5000
-PgAdmin: http://localhost:8080
-Login with: admin@admin.com / admin
-Environment Variables
-The application relies on specific environment variables, especially for database connections. Update the docker-compose.yml if needed.
+---
+
+## **Technology Stack**
+
+| Component           | Technology                         |
+|---------------------|------------------------------------|
+| **Backend**         | .NET 8 Web API in Clean Architecture |
+| **Database**        | PostgreSQL                        |
+| **Real-Time Comm.** | SignalR                           |
+| **Containerization**| Docker                            |
+
+---
+
+## **Setup and Run**
+
+### Prerequisites
+
+Ensure you have **Docker** and **Docker Compose** installed.
+
+### Steps
+
+1. **Clone the Repository**:
+2. **Start the Application**:
+   docker-compose up
+
+
 
