@@ -35,7 +35,7 @@ Ensure you have **Docker** and **Docker Compose** installed.
 
 1. **Clone the Repository**:
 2. **Start the Application**:
-  | docker-compose up |
-
+**docker-compose up 
+**
 
 
