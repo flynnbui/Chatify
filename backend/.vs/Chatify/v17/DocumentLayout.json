@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "E:\\code\\flynn\\Chatify\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\command.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\command.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A6FF5C-7A7F-416B-A8DF-FAD9ABB2B80B}|ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.infrastructure\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A6FF5C-7A7F-416B-A8DF-FAD9ABB2B80B}|ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj|solutionrelative:chatapp.infrastructure\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\chatapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\chatapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.core\\services\\tokenclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|solutionrelative:chatapp.core\\services\\tokenclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A6FF5C-7A7F-416B-A8DF-FAD9ABB2B80B}|ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.infrastructure\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A6FF5C-7A7F-416B-A8DF-FAD9ABB2B80B}|ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj|solutionrelative:chatapp.infrastructure\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.core\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.core\\interfaces\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|solutionrelative:chatapp.core\\interfaces\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.api\\command.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{614AAA55-C5C0-4B16-A940-A8648FB13A48}|ChatApp.API\\ChatApp.API.csproj|solutionrelative:chatapp.api\\command.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46A6FF5C-7A7F-416B-A8DF-FAD9ABB2B80B}|ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|solutionrelative:chatapp.core\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.core\\services\\tokenclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|solutionrelative:chatapp.core\\services\\tokenclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|e:\\code\\flynn\\chatify\\backend\\chatapp.core\\interfaces\\services\\itokenclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15C5B48E-7573-44E6-A6BA-387056B213A9}|ChatApp.Core\\ChatApp.Core.csproj|solutionrelative:chatapp.core\\interfaces\\services\\itokenclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -142,11 +142,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
+              "Title": "ChatApp.API.csproj",
+              "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\ChatApp.API.csproj",
+              "RelativeDocumentMoniker": "ChatApp.API\\ChatApp.API.csproj",
+              "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\ChatApp.API.csproj",
+              "RelativeToolTip": "ChatApp.API\\ChatApp.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T05:30:13.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IMessageRepository.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Interfaces\\Repositories\\IMessageRepository.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Interfaces\\Repositories\\IMessageRepository.cs",
@@ -158,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MessageService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Services\\MessageService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Services\\MessageService.cs",
@@ -170,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MessageDTO.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\DTOs\\Response\\MessageDTO.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\DTOs\\Response\\MessageDTO.cs",
@@ -182,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Interfaces\\Services\\IMessageService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Interfaces\\Services\\IMessageService.cs",
@@ -194,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ConversationDTO.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\DTOs\\Response\\ConversationDTO.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\DTOs\\Response\\ConversationDTO.cs",
@@ -206,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MessageController.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Controllers\\MessageController.cs",
               "RelativeDocumentMoniker": "ChatApp.API\\Controllers\\MessageController.cs",
@@ -218,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MessageRepository.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Infrastructure\\Repositories\\MessageRepository.cs",
               "RelativeDocumentMoniker": "ChatApp.Infrastructure\\Repositories\\MessageRepository.cs",
@@ -230,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Message.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Models\\Message.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Models\\Message.cs",
@@ -242,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "ChatApp.API\\Middleware\\ExceptionMiddleware.cs",
@@ -254,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Infrastructure\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "ChatApp.Infrastructure\\Repositories\\AuthRepository.cs",
@@ -266,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "ChatApp.Infrastructure\\Repositories\\UserRepository.cs",
@@ -290,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Command.md",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Command.md",
               "RelativeDocumentMoniker": "ChatApp.API\\Command.md",
@@ -298,19 +311,7 @@
               "RelativeToolTip": "ChatApp.API\\Command.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-11-02T21:28:51.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\docker-compose.yml",
-              "RelativeDocumentMoniker": "ChatApp.API\\docker-compose.yml",
-              "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\docker-compose.yml",
-              "RelativeToolTip": "ChatApp.API\\docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-11-02T21:26:10.817Z",
+              "WhenOpened": "2024-11-02T21:28:51.151Z",
               "EditorCaption": ""
             },
             {
@@ -327,16 +328,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "ChatApp.API\\Hubs\\ChatHub.cs",
               "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "ChatApp.API\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAwAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:12:04.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:12:04.555Z"
             },
             {
               "$type": "Document",
@@ -364,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "RefreshTokenDTO.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\DTOs\\Request\\RefreshTokenDTO.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\DTOs\\Request\\RefreshTokenDTO.cs",
@@ -376,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Interfaces\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Interfaces\\Repositories\\IUserRepository.cs",
@@ -388,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Models\\User.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Models\\User.cs",
@@ -400,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IUserService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Interfaces\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Interfaces\\Services\\IUserService.cs",
@@ -412,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Services\\UserService.cs",
@@ -436,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Interfaces\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Interfaces\\Services\\IAuthService.cs",
@@ -448,37 +448,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Program.cs",
               "RelativeDocumentMoniker": "ChatApp.API\\Program.cs",
               "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Program.cs",
               "RelativeToolTip": "ChatApp.API\\Program.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAYwFcAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T18:33:19.37Z"
+              "WhenOpened": "2024-10-29T18:33:19.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ChatApp.API\\Controllers\\AuthController.cs",
               "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ChatApp.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwAIAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T18:26:01.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 6,
               "Title": "TokenClaimService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Services\\TokenClaimService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Services\\TokenClaimService.cs",
               "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Services\\TokenClaimService.cs",
               "RelativeToolTip": "ChatApp.Core\\Services\\TokenClaimService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAawDsAAAAjAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAlwDkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T17:36:14.815Z"
             },
@@ -496,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AuthService.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Core\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "ChatApp.Core\\Services\\AuthService.cs",
@@ -520,20 +521,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\appsettings.json",
               "RelativeDocumentMoniker": "ChatApp.API\\appsettings.json",
               "ToolTip": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.API\\appsettings.json",
               "RelativeToolTip": "ChatApp.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-29T16:54:30.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "DbContext.cs",
               "DocumentMoniker": "E:\\code\\flynn\\Chatify\\backend\\ChatApp.Infrastructure\\Data\\DbContext.cs",
               "RelativeDocumentMoniker": "ChatApp.Infrastructure\\Data\\DbContext.cs",
@@ -541,8 +542,7 @@
               "RelativeToolTip": "ChatApp.Infrastructure\\Data\\DbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T14:48:41.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T14:48:41.757Z"
             }
           ]
         }

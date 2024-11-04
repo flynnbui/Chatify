@@ -16,7 +16,8 @@ const refreshToken = async () => {
   const storedToken = getJwtToken();
   if (!storedRefreshToken) return null;
 
-  const response = await api.post('/auth/refreshtoken', { Token: storedToken, RefreshToken: storedRefreshToken });
+  const response = await api.post('/auth/refreshtoken', 
+    { Token: storedToken, RefreshToken: storedRefreshToken });
   const { token, refreshToken } = response.data;
 
   setJwtToken(token);

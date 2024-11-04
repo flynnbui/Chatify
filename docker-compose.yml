@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  dev-db:
+    image: postgres:13
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: chatstuff
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - dev-db
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=dev-db;Port=5432;Database=chatstuff;Username=postgres;Password=123"
+    depends_on:
+      - dev-db
+    entrypoint: >
+      sh -c "cd /app && until dotnet ef database update --project ChatApp.Infrastructure --startup-project ChatApp.API; do echo 'Waiting for database...'; sleep 5; done && cd /app/publish && dotnet ChatApp.API.dll"
+
+
+
+    
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80" # Exposes frontend on port 3000
+    depends_on:
+      - backend

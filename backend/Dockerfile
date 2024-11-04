@@ -1,25 +1,35 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER app
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
+# Use the official .NET SDK image for both building and running the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["Chatify.csproj", "."]
-RUN dotnet restore "./Chatify.csproj"
-COPY . .
-WORKDIR "/src/."
-RUN dotnet build "./Chatify.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Chatify.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
+# Set the working directory in the container
 WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Chatify.dll"]
+
+# Install dotnet-ef globally for migration
+RUN dotnet tool install --global dotnet-ef
+ENV PATH="$PATH:/root/.dotnet/tools"
+
+# Copy the project files and restore dependencies
+COPY ["ChatApp.API/ChatApp.API.csproj", "ChatApp.API/"]
+COPY ["ChatApp.Core/ChatApp.Core.csproj", "ChatApp.Core/"]
+COPY ["ChatApp.Infrastructure/ChatApp.Infrastructure.csproj", "ChatApp.Infrastructure/"]
+
+# Restore dependencies
+RUN dotnet restore "ChatApp.API/ChatApp.API.csproj"
+
+# Copy the rest of the application source code
+COPY . .
+
+# Publish the application
+RUN dotnet publish "ChatApp.API/ChatApp.API.csproj" -c Release -o /app/publish
+
+# Set the working directory in the final image
+WORKDIR /app/publish
+
+# Expose the port on which the application will run
+EXPOSE 80
+
+# Set environment variables (e.g., for PostgreSQL connection string)
+ENV ASPNETCORE_URLS=http://+:80
+
+# Run the application
+ENTRYPOINT ["dotnet", "ChatApp.API.dll"]
