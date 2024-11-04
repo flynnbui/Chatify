@@ -1,4 +1,4 @@
-Chatify - Secure Chat Application
+**Chatify - Secure Chat Application**
 
 Chatify is a secure, end-to-end encrypted (EE2E) chat application that prioritizes user privacy and data protection. 
 Built with modern authentication mechanisms and real-time communication protocols, Chatify addresses common security challenges in token-based authentication and real-time messaging.
@@ -35,7 +35,7 @@ Ensure you have **Docker** and **Docker Compose** installed.
 
 1. **Clone the Repository**:
 2. **Start the Application**:
-   docker-compose up
+  | docker-compose up |
 
 
 
